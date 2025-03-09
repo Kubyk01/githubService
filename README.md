@@ -13,6 +13,7 @@ Ensure you have Java 21 installed and set up. To verify if Java 21 is installed,
 2. Running the Application
 
 You have two ways to run the application: Development Mode and Production Mode.
+
 Development Mode
 
 For development purposes, you can run the application in development mode. This will allow you to make changes to your code and see them reflected immediately without needing to restart the application. To start the app in development mode, run:
@@ -20,6 +21,7 @@ For development purposes, you can run the application in development mode. This 
 ``./mvnw quarkus:dev``
 
 This will start the application in development mode, and the server will be available at http://localhost:8080. You can use the localhost:8080/github/{login}/repos endpoint to retrieve repository information.
+
 Production Mode
 
 For production, you can build and run the application using the following commands:
