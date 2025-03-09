@@ -1,4 +1,3 @@
-# githubService
 GitHub Repository Info Service
 
 This project provides a RESTful service that retrieves information about a user's GitHub repositories. For each repository, it returns the repository name, owner login, and a list of branches with the respective commit SHA.
